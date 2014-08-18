@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <title>To Do List/s</title>
+    <script src="todo.js"></script>
+    <script src="todoTest.js"></script>
+    <link rel="stylesheet" type="text/css" href="todoCSS.css">
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="controlPanel">
+        <h1>To Do List</h1>
+        <input id="newListName" type="text"></input>
+        <button onclick="addNewList()">Add List</button> <span id="errorMsg"></span>
+      </div> <!-- End controlPanel -->
+      <div id="settingsPanel">
+        <p>No. of lists per line 
+          <input id="listPerLine" type='number'></input>
+          <button onclick="setListsPerLine()">Apply</button>
+        </p>
+      </div> <!-- End settingsPanel -->
+      <div id="listSpace">
+      </div>
+      <br clear="float">
+    </div>
+  </body>
+</html>
