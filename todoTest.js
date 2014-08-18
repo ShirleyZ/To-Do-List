@@ -16,3 +16,4 @@ checkTask(0, 1);
 printList(0);
 uncheckTask(0, 3);
 printList(0);
+printList(0);
