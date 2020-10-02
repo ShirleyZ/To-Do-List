@@ -36,7 +36,7 @@ var show = function() {
 }
 
 var addNewList = function() {
-  console.log("***New List");
+  console.log("***New List***");
   var name = document.getElementById("newListName").value;
   if (name == '') {
     errorMsg('You cannot leave the name blank');
